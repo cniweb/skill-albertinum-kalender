@@ -13,7 +13,7 @@ let alexa;
 let APP_ID = undefined;
 
 // URL to get the .ics from, in this instance we are getting from Stanford however this can be changed
-const URL = "http://events.stanford.edu/eventlist.ics";
+const URL = "webcal://www.gym-albertinum.de/kalender/albertinum.ics";
 
 // Skills name
 const skillName = "Events calendar:";
