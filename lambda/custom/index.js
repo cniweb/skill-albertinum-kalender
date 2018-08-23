@@ -10,7 +10,7 @@ const states = {
 let alexa;
 
 //OPTIONAL: replace with "amzn1.ask.skill.[your-unique-value-here]";
-let APP_ID = amzn1.ask.skill.1bc2db0a-9477-4aac-818b-3406ff9ab017;
+let APP_ID = "amzn1.ask.skill.1bc2db0a-9477-4aac-818b-3406ff9ab017";
 
 // URL to get the .ics from, in this instance we are getting from Gymnasium Albertinum however this can be changed
 const URL = "http://www.gym-albertinum.de/kalender/albertinum.ics";
