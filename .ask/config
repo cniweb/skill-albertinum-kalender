@@ -26,12 +26,12 @@
         "lambda": [
           {
             "arn": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
-            "functionName": "ask-custom-calendar-default",
+            "functionName": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
             "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "ad1e11a4-d1b0-4599-8af9-64b5cd3d3557"
+            "revisionId": "6a116727-a016-45bb-8934-d12337f8f3a5"
           }
         ]
       }
