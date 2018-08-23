@@ -16,22 +16,22 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "fb900e4de4cbe1ba3f290271f296e5e1"
+          "eTag": "909641e498084cad9646907c50e64b85"
         },
         "interactionModel": {
           "de-DE": {
-            "eTag": "25ac4a1a23f970f8ac2c0a950d85d5da"
+            "eTag": "11ef096fd0b15de394359c83c240927a"
           }
         },
         "lambda": [
           {
             "arn": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
-            "functionName": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
+            "functionName": "ask-custom-calendar-default",
             "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "4ee2583f-3631-4ffb-9d5f-7d8e7aea2702"
+            "revisionId": "ad1e11a4-d1b0-4599-8af9-64b5cd3d3557"
           }
         ]
       }
