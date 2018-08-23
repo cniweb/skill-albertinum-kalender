@@ -13,10 +13,10 @@ let alexa;
 let APP_ID = amzn1.ask.skill.1bc2db0a-9477-4aac-818b-3406ff9ab017;
 
 // URL to get the .ics from, in this instance we are getting from Stanford however this can be changed
-const URL = "webcal://www.gym-albertinum.de/kalender/albertinum.ics";
+const URL = "http://www.gym-albertinum.de/kalender/albertinum.ics";
 
 // Skills name
-const skillName = "Albertinum calendar:";
+const skillName = "albertinum kalendar:";
 
 // Message when the skill is first called
 const welcomeMessage = "You can ask for the events today. Search for events by date. or say help. What would you like? ";

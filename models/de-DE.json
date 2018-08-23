@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "stanford calendar",
+      "invocationName": "albertinum kalendar",
       "intents": [
         {
           "name": "AMAZON.HelpIntent"
@@ -30,17 +30,15 @@
             }
           ],
           "samples": [
-            "get me stuff happening {date}",
-            "get me events for {date}",
-            "whats on {date}",
+            "gib mir Einzelheiten über {date}",
+            "gib mir Termine für {date}",
+            "was is am {date}",
             "{date}",
-            "for {date}",
-            "whats happening {date}",
-            "tell me whats happening {date}",
-            "what is happening {date}",
-            "what is happening on {date}",
-            "what events are happening {date}",
-            "what events are happening on {date}"
+            "für {date}",
+            "welcher Termin {date}",
+            "sag mir was ist am {date}",
+            "welcher Termin ist {date}",
+            "welcher Termin ist am {date}"
           ]
         },
         {
@@ -52,9 +50,9 @@
             }
           ],
           "samples": [
-            "tell me about event {number}",
-            "whats event {number}",
-            "number {number}",
+            "sage mir etwas über Termin {number}",
+            "was ist Termin {number}",
+            "Nummer {number}",
             "{number}"
           ]
         }
