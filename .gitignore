@@ -2,3 +2,5 @@
 skill-sample-nodejs-calendar-reader.pdf
 
 Archive.zip
+
+lambda/custom/node_modules/**

@@ -1,18 +1,18 @@
-
 {
-  "name": "skill-sample-nodejs-calendar-reader",
+  "name": "albertinum-calendar-reader",
   "version": "1.0.0",
-  "description": "A simple calendar reading skill.",
+  "description": "A albertinum calendar reading skill.",
   "main": "index.js",
+  "repository": "https://github.com/cniweb/skill-sample-nodejs-calendar-reader",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "alexa",
     "skill",
-    "fact"
+    "albertinum"
   ],
-  "author": "Amazon.com",
+  "author": "Christian Haeussler",
   "license": "Apache-2.0",
   "dependencies": {
     "alexa-sdk": "^1.0.0",

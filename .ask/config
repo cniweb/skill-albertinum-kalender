@@ -1,10 +1,10 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.1bc2db0a-9477-4aac-818b-3406ff9ab017",
       "was_cloned": false,
       "merge": {
-        "skillManifest": {
+        "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
@@ -13,6 +13,27 @@
             }
           }
         }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "b4ff54ac58b52de9a0efdd32d6f55722"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "90b62084c54502cf95e92cf8747bfc79"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
+            "functionName": "ask-custom-calendar-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "2e27c706-e863-49dc-8c96-0e77b0b18e7c"
+          }
+        ]
       }
     }
   }
