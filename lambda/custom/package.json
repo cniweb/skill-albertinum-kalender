@@ -1,7 +1,7 @@
 {
-  "name": "albertinum-calendar-reader",
+  "name": "albertinum-kalender",
   "version": "1.0.0",
-  "description": "A albertinum calendar reading skill.",
+  "description": "Ein Albertinum Kalender lese Skill.",
   "main": "index.js",
   "repository": "https://github.com/cniweb/skill-sample-nodejs-calendar-reader",
   "scripts": {

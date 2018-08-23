@@ -16,7 +16,7 @@ let APP_ID = amzn1.ask.skill.1bc2db0a-9477-4aac-818b-3406ff9ab017;
 const URL = "http://www.gym-albertinum.de/kalender/albertinum.ics";
 
 // Skills name
-const skillName = "albertinum kalendar:";
+const skillName = "albertinum kalender:";
 
 // Message when the skill is first called
 const welcomeMessage = "You can ask for the events today. Search for events by date. or say help. What would you like? ";

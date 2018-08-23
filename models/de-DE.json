@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "albertinum kalendar",
+      "invocationName": "albertinum kalender",
       "intents": [
         {
           "name": "AMAZON.HelpIntent"

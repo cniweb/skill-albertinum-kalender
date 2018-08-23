@@ -5,11 +5,11 @@
         "de-DE": {
           "summary": "Termine Albertinum",
           "examplePhrases": [
-            "Alexa öffne albertinum Kalendar",
-            "Alexa frage Albertinum Kalendar welche Termine gibt es heute",
-            "Alexa sage Albertinum Kalendar gib mir alle Termine für morgen"
+            "Alexa öffne albertinum Kalender",
+            "Alexa frage Albertinum Kalender welche Termine gibt es heute",
+            "Alexa sage Albertinum Kalender gib mir alle Termine für morgen"
           ],
-          "name": "Albertinum Kalendar",
+          "name": "Albertinum Kalender",
           "description": "Alle Termine des Gymnasiums Albertinum"
         }
       },
