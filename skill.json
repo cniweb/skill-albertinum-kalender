@@ -17,7 +17,7 @@
       "isAvailableWorldwide": false,
       "testingInstructions": "No special instructions.",
       "category": "EDUCATION_AND_REFERENCE",
-      "distributionCountries": [
+      "distributionCountries": [ 
         "DE"
       ]
     },
@@ -25,6 +25,13 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom"
+        },
+        "regions": {
+          "EU":{
+            "endpoint": {
+              "sourceDir": "lambda/custom"
+            }
+          }
         }
       }
     },
