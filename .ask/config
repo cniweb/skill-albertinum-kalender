@@ -7,8 +7,12 @@
         "manifest": {
           "apis": {
             "custom": {
-              "endpoint": {
-                "uri": "albertinum-kalender"
+              "regions": {
+                "EU": {
+                  "endpoint": {
+                    "uri": "albertinum-kalender"
+                  }
+                }
               }
             }
           }

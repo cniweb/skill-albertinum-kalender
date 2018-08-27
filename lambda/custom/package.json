@@ -1,21 +1,21 @@
 {
-  "name": "albertinum-kalender",
-  "version": "1.0.0",
-  "description": "Ein Albertinum Kalender lese Skill.",
-  "main": "index.js",
-  "repository": "https://github.com/cniweb/skill-sample-nodejs-calendar-reader",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "alexa",
-    "skill",
-    "albertinum"
-  ],
-  "author": "Christian Haeussler",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "alexa-sdk": "^1.0.0",
-    "ical": "^0.5.0"
-  }
+    "name": "albertinum-kalender",
+    "version": "1.0.0",
+    "description": "Ein Albertinum Kalender lese Skill.",
+    "main": "index.js",
+    "repository": "https://github.com/cniweb/skill-sample-nodejs-calendar-reader",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "alexa",
+        "skill",
+        "albertinum"
+    ],
+    "author": "Christian Haeussler",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "alexa-sdk": "^1.0.0",
+        "ical": "^0.5.0"
+    }
 }
