@@ -9,13 +9,6 @@
             "custom": {
               "endpoint": {
                 "uri": "frageAlbertinumKalendar"
-              },
-              "regions": {
-                "EU":{
-                  "endpoint": {
-                    "sourceDir": "lambda/custom"
-                  }
-                },
               }
             }
           }
