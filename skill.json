@@ -10,7 +10,7 @@
                         "Alexa sage Albertinum Kalender gib mir alle Termine für morgen"
                     ],
                     "keywords": [],
-                    "name": "albertinum kalender",
+                    "name": "Albertinum Kalender",
                     "description": "Alle Termine des Gymnasiums Albertinum"
                 }
             },
@@ -23,6 +23,9 @@
         },
         "apis": {
             "custom": {
+                "endpoint": {
+                    "sourceDir": "lambda/custom"
+                },
                 "regions": {
                     "EU": {
                         "endpoint": {

@@ -1,22 +1,55 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.79e556ce-447a-4288-9af3-52b0fd5da171",
       "was_cloned": false,
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
+              "endpoint": {
+                "uri": "albertinum-kalender"
+              },
               "regions": {
                 "EU": {
                   "endpoint": {
-                    "uri": ""
+                    "uri": "albertinum-kalender"
                   }
                 }
               }
             }
           }
         }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "b6eb3951c957c7b1e08c7eb976d1110a"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "11ef096fd0b15de394359c83c240927a"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:183827914911:function:albertinum-kalender",
+            "functionName": "arn:aws:lambda:us-east-1:183827914911:function:albertinum-kalender",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "d3fa7fbf-f58f-48a7-85ce-68122a2999ab"
+          },
+          {
+            "arn": "arn:aws:lambda:eu-west-1:183827914911:function:albertinum-kalender",
+            "functionName": "arn:aws:lambda:eu-west-1:183827914911:function:albertinum-kalender",
+            "awsRegion": "eu-west-1",
+            "alexaUsage": [
+              "custom/EU"
+            ],
+            "revisionId": "bb13cfaa-2036-4b24-8920-8616358025fb"
+          }
+        ]
       }
     }
   }
