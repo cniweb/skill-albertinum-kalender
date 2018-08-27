@@ -1,39 +1,25 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.1bc2db0a-9477-4aac-818b-3406ff9ab017",
+      "skill_id": "",
       "was_cloned": false,
       "merge": {
-        "manifest": {
+        "skillManifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-calendar-default"
+                "uri": "frageAlbertinumKalendar"
+              },
+              "regions": {
+                "EU":{
+                  "endpoint": {
+                    "sourceDir": "lambda/custom"
+                  }
+                },
               }
             }
           }
         }
-      },
-      "resources": {
-        "manifest": {
-          "eTag": "909641e498084cad9646907c50e64b85"
-        },
-        "interactionModel": {
-          "de-DE": {
-            "eTag": "11ef096fd0b15de394359c83c240927a"
-          }
-        },
-        "lambda": [
-          {
-            "arn": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
-            "functionName": "arn:aws:lambda:us-east-1:183827914911:function:ask-custom-calendar-default",
-            "awsRegion": "us-east-1",
-            "alexaUsage": [
-              "custom/default"
-            ],
-            "revisionId": "fc426922-5016-4ae8-9fcd-82deeeaafbd5"
-          }
-        ]
       }
     }
   }

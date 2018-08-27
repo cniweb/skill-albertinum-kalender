@@ -9,14 +9,17 @@
             "Alexa frage Albertinum Kalender welche Termine gibt es heute",
             "Alexa sage Albertinum Kalender gib mir alle Termine für morgen"
           ],
+          "keywords": [],
           "name": "Albertinum Kalender",
           "description": "Alle Termine des Gymnasiums Albertinum"
         }
       },
-      "isAvailableWorldwide": true,
+      "isAvailableWorldwide": false,
       "testingInstructions": "No special instructions.",
       "category": "EDUCATION_AND_REFERENCE",
-      "distributionCountries": []
+      "distributionCountries": [
+        "DE"
+      ]
     },
     "apis": {
       "custom": {
@@ -25,6 +28,13 @@
         }
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+      }
   }
 }
