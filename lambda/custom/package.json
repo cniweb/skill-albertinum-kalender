@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Ein Albertinum Kalender lese Skill.",
     "main": "index.js",
-    "repository": "https://github.com/cniweb/skill-sample-nodejs-calendar-reader",
+    "repository": "https://github.com/cniweb/skill-albertinum-kalender",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },

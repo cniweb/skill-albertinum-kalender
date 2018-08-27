@@ -38,7 +38,7 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "d3fa7fbf-f58f-48a7-85ce-68122a2999ab"
+            "revisionId": "91484382-3497-48c3-a438-208fa4bfec41"
           },
           {
             "arn": "arn:aws:lambda:eu-west-1:183827914911:function:albertinum-kalender",
@@ -47,7 +47,7 @@
             "alexaUsage": [
               "custom/EU"
             ],
-            "revisionId": "bb13cfaa-2036-4b24-8920-8616358025fb"
+            "revisionId": "6da8e6de-f459-46fe-abad-699a17e27ca8"
           }
         ]
       }
