@@ -10,7 +10,7 @@
               "regions": {
                 "EU": {
                   "endpoint": {
-                    "uri": "albertinum-kalender"
+                    "uri": ""
                   }
                 }
               }
