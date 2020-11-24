@@ -1,21 +1,25 @@
 {
-    "name": "albertinum-kalender",
-    "version": "1.0.0",
-    "description": "Ein Albertinum Kalender lese Skill.",
-    "main": "index.js",
-    "repository": "https://github.com/cniweb/skill-albertinum-kalender",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "alexa",
-        "skill",
-        "albertinum"
-    ],
-    "author": "Christian Haeussler",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "alexa-sdk": "^1.0.0",
-        "ical": "^0.5.0"
-    }
+  "name": "albertinum-kalender",
+  "version": "1.0.0",
+  "description": "Ein Albertinum Kalender lese Skill.",
+  "main": "index.js",
+  "repository": "https://github.com/cniweb/skill-albertinum-kalender",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "albertinum"
+  ],
+  "author": "Christian Haeussler",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0",
+    "ical": "^0.7.0",
+    "snyk": "^1.431.1"
+  },
+  "snyk": true
 }
