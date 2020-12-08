@@ -18,7 +18,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "alexa-sdk": "^1.0.0",
-    "ical": "^0.7.0",
+    "ical": "^0.8.0",
     "snyk": "^1.431.1"
   },
   "snyk": true
