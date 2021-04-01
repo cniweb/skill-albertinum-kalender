@@ -19,7 +19,7 @@
   "dependencies": {
     "alexa-sdk": "^1.0.0",
     "ical": "^0.8.0",
-    "snyk": "^1.431.1"
+    "snyk": "^1.518.0"
   },
   "snyk": true
 }
